@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ItemDetails">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/cardView"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="200dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:id="@+id/id_textview"
+                android:textStyle="normal"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Medical Lab..."
+                android:layout_height="wrap_content">
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:id="@+id/userId_textview"
+                android:textStyle="normal"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Medical Lab..."
+                android:layout_height="wrap_content">
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:id="@+id/title_textview"
+                android:textStyle="normal"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Medical Lab..."
+                android:layout_height="wrap_content">
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:id="@+id/body_textview"
+                android:textStyle="normal"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Medical Lab..."
+                android:layout_height="wrap_content">
+            </androidx.appcompat.widget.AppCompatTextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
